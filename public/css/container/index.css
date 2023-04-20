@@ -1,0 +1,17 @@
+@import './ex.css';
+:root {
+  --some-color: red;
+}
+
+.button {
+  /* red */
+  color: var(--some-color);
+  display: flex;
+}
+
+.dib {
+  width: 110px;
+}
+body {
+  font-family: 'Roboto Condensed';
+}
